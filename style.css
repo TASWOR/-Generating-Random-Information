@@ -1,0 +1,33 @@
+body{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/dark-triangles.png");
+    text-align: center;
+
+}
+
+#info {
+    padding-top: 150px;
+    color: white;
+    font-size: 25px;
+}
+#element{
+    padding-top: 10px;
+    color: white;
+    font-size: 25px;
+}
+#numb-type ,#ans-type,#pass-type{
+    display: none;
+}
+textarea {
+    resize: none;
+}
+#numb-answer{
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold
+}
+#pass-answer,#ans-answer{
+    margin-top: 15px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold
+}

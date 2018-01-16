@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="generation.js"></script>
+</head>
+<body>
+    <input id="numb" type="button" value="Генерация случайных чисел">
+    <input id="pass" type="button" value="Генерация случайных паролей">
+    <input id="name" type="button" value="Генерация случайных ников">
+    <input id="ans" type="button" value="Генерация случайных ответов">
+    <p id="info">Добро пожаловать</p>
+    <div id="element">
+        <div id="numb-type">
+            Исключить повторения
+            <input id="numb-check" type="checkbox"><br>
+            <input id="numb-gen" type="button" value="Сгенерировать"><br>
+            Число от <input id="numb-first" type="text" value="1">
+            до <input id="numb-second" type="text" value="1000">
+            Найти символов:
+            <p id="range"></p>
+            <input id="countNumbers" type="range" min="1" max="100" value="1"><br>
+            <textarea id="numb-answer"cols="93" rows="5" disabled="disabled"></textarea>
+
+            <p ></p>
+    </div>
+    <div id="ans-type">
+        <input id="ans-gen" type="button" value="Сгенерировать"><br>
+        Ваш вопрос: <input id="ans-first" type="text" placeholder="Читаем из ваших мыслей"><br>
+        <textarea id="ans-answer" cols="12" rows="1" disabled="disabled"></textarea>
+    </div>
+        <div id="pass-type">
+            <input id="pass-gen" type="button" value="Сгенерировать"><br>
+            Длина пароля:
+        <select id="number">
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+        </select><br>
+            Сгенерировать c цифрами
+            <input id="pass-checkNumber" type="checkbox"><br>
+
+            Сгенерировать c спец.символами
+            <input id="pass-checkAll" type="checkbox"><br>
+
+            <textarea id="pass-answer" cols="14" rows="1" disabled="disabled"></textarea>
+        </div>
+    </div>
+</body>
+</html>
